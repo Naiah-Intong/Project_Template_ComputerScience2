@@ -1,4 +1,4 @@
-[
+attendance_ data = [
   {
     "student_id": "S001",
     "name": "Alice Johnson",
@@ -48,3 +48,31 @@
     ]
   }
 ]
+
+def calculate_attendance_rate(student):
+    dates = student["dates"]
+    if not dates:
+        return 0.0
+    points = sum(
+        1.0 if d["status"] == "Present"
+        else 0.5 if d["status"] == "Tardy"
+        else 0.0
+        for d in dates
+    )
+    return round((points / len(dates)) * 100, 2)
+
+def find_invalid_inputs(records, valid_statuses):
+    bad_entries = []
+    for student in records:
+        for entry in student["dates"]:
+            if entry["status"] not in valid_statuses:
+                bad_entries.append((student["student_id"], entry["date"], entry["status"]))
+    return bad_entries
+
+def get_daily_attendance_check(records, target_date):
+    roll = []
+    for student in records:
+        for entry in student["dates"]:
+            if entry["date"] == target_date:
+                roll.append(f"{student['name']} ({student['student_id']}): {entry['status']}")
+    return roll
