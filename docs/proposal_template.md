@@ -37,18 +37,24 @@ We have provided **2 starter ideas** for each dataset — you must design **at l
 Describe your program’s logic:  
 
 ### Pseudocode  
-Write your steps in plain English. Example:  
-Load JSON file
-Display menu of features
-If user chooses "1", compute average grade per student
-If user chooses "2", list all borrowed books
-Repeat until user exits program
+---START
 
+FOR EACH student:
+    count how many days they were Present, Tardy, Absent
+    score = Present + (Tardy / 2)
+    rate = score / total days * 100
+    show rate
 
-### Flowchart  
-Attach or draw a flowchart showing how the program will work.  
+FOR EACH student and each day:
+    IF status is not Present, Tardy, or Absent:
+        list it as an error
 
----
+ASK for a date:
+    FOR EACH student and each day:
+        IF day matches the date:
+            show name, ID, and status
+
+END
 
 ## 📂 GitHub Repository Link  
 Paste your GitHub repository link here:  
