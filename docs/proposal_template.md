@@ -1,17 +1,14 @@
 # 📌 Project Proposal (Draft)
 
 ## 📝 Project Title  
-*Enter your initial project title here.*  
-
----
+Attendance Checker
 
 ## 🔍 Problem Statement  
 What real-world problem does your project want to solve?  
 - Describe the issue or need you identified.  
 - Explain why this problem is relevant and worth solving.  
 - Relate the problem to the dataset you selected (e.g., hospital, ecommerce, students, etc.).  
-
----
+Regular attendance written on pen and paper can be altered by the person writing it. it may give them a free pass from late admissions, absents, and make it seem they were there earlier. This problem is prominent today because of modern elements, and late entries should be sanctioned accordingly. We picked the attendance dataset because it tracks the attendance. 
 
 ## 🎯 Project Objectives  
 Write at least **2–3 clear objectives** your project aims to achieve. Example:  
