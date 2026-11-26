@@ -1,4 +1,4 @@
-attendance_ data = [
+attendance_data = [
   {
     "student_id": "S001",
     "name": "Alice Johnson",
