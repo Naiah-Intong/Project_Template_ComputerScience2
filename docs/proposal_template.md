@@ -4,19 +4,14 @@
 Attendance Checker
 
 ## 🔍 Problem Statement  
-What real-world problem does your project want to solve?  
-- Describe the issue or need you identified.  
-- Explain why this problem is relevant and worth solving.  
-- Relate the problem to the dataset you selected (e.g., hospital, ecommerce, students, etc.).  
-Regular attendance written on pen and paper can be altered by the person writing it. it may give them a free pass from late admissions, absents, and make it seem they were there earlier. This problem is prominent today because of modern elements, and late entries should be sanctioned accordingly. We picked the attendance dataset because it tracks the attendance. 
+Regular attendance written on pen and paper can be altered by the person writing it.
+It may give them a free pass from late admissions, absents, and make it seem they were there earlier.
+This problem is prominent today because of modern elements, and late entries should be sanctioned accordingly.
+We picked the attendance dataset because it tracks the attendance. 
 
 ## 🎯 Project Objectives  
-Write at least **2–3 clear objectives** your project aims to achieve. Example:  
-- Objective 1: To analyze and summarize data from the chosen JSON dataset.  
-- Objective 2: To help users gain meaningful insights (e.g., averages, trends, patterns).  
-- Objective 3: To practice JSON handling and Python programming concepts.  
-
----
+Objective 1: To help future users to have a guide in coding. 
+Objective 2: To practice coding features and master them. 
 
 ## ⚙️ Planned Features  
 Your program must have **at least 5 features (minimum)**.  
