@@ -25,19 +25,13 @@ We have provided **2 starter ideas** for each dataset — you must design **at l
 
 *(You may add more features if you like.)*  
 
----
-
 ## ⌨️ Planned Inputs and Outputs  
 
 - **Inputs**  
-  - What kind of data will the user provide (if any)?  
-  - Example: student ID, date range, product name  
+  student ID, student name, dates
 
 - **Outputs**  
-  - What kind of results will your program display?  
-  - Example: class averages, top products, weather summary  
-
----
+  dates tardy, absent, present, or cutting classes
 
 ## 🧠 Logic Plan  
 Describe your program’s logic:  
